@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("3.jpg");
+
+  min-height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: yellow;
+}
+
+  </style>
+  </head>
+  <body>
+  	<h2><center>DONATION BOX</center></h2>
+    <div class="bg-img">
+  <form action="/action_page.php" class="container">
+    <h1>Please donate your amount here:</h1>
+<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GmZkoIegiBpO1w" async> </script></form> 
+ </form>
+</div>
+  </body>
+</html>
+
+
+
+
